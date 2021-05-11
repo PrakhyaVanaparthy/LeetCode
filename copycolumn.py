@@ -23,8 +23,8 @@ for i in range(1, src_sheet.max_row+1):
     for j in range(1, src_sheet.max_column+1):
         dest_sheet.cell(row=i+1, column=j+2).value = src_sheet.cell(row=i+1, column=j).value
 
-src_wb.save('source.xlsx')
-dest_wb.save('destination.xlsx')
+#src_wb.save('source.xlsx')
+dest_wb.save('Blueprints.xlsx')
 
 
 
